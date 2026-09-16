@@ -18,7 +18,7 @@ Day 5 - UX + DevTools
 
 #DevTools
 
-##Topics Learned
+##Topics Learned  
 
 1. Chrome DevTools
 2. Console
