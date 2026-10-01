@@ -1,0 +1,17 @@
+{
+  "validUser": {
+    "email": "sujalaadhikari918@gmail.com",
+    "password": "Kathmandu$$123"
+  },
+
+  "invalidUser": {
+    "email": "wronguser@gmail.com",
+    "password": "WrongPassword123"
+  },
+
+  "invalidEmails": {
+    "withoutAt": "testgmail.com",
+    "withoutDomain": "test@",
+    "withSpaces": "test @gmail.com"
+  }
+}
