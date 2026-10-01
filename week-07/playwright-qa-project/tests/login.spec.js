@@ -1,8 +1,7 @@
 import { test, expect } from '@playwright/test';
-// import 'dotenv/config';
 
 test.use({
-  ignoreHTTPSErrors: true,
+  ignoreHTTPSErrors: true,    
   baseURL: 'https://10.1.186.251/',
 });
 
@@ -13,7 +12,7 @@ test.beforeEach(async ({ page }) => {
 // Test 1: Page loads with correct title
 test('homepage loads with correct title', async ({ page }) => {
   await expect(page).toHaveTitle(/Udeshya/i);
-});
+}); 
 
 // Test 2: Login form elements are visible
 test('login form displays required fields', async ({ page }) => {
